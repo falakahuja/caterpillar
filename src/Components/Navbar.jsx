@@ -1,15 +1,13 @@
 import React from 'react';
 import './Navbar.css';
-import image1 from '../assets/image1.png';
-import Predict from '../assets/Predict.png';
+import Catpredict from '../assets/Catpredict.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <div className="logo">
-            <img src={image1} alt="Login" />
-            <img src={Predict} alt="Login" />
+          <img src={Catpredict} alt="Logo" />
         </div>
         <div className="nav-links">
           <a href="/" className="nav-link">Company</a>
@@ -18,7 +16,7 @@ const Navbar = () => {
           <a href="/contact" className="nav-link">Careers</a>
         </div>
         <div className="contact-button">
-          <a href="" className="contact">Contact Us</a>
+          <a href="#contact" className="contact">Contact Us</a>
         </div>
       </div>
     </nav>
