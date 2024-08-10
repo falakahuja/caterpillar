@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Univers LT Std 57 Condensed";
+    src: url("https://db.onlinewebfonts.com/t/7c631010b431b2d84c8a7229a9e64705.eot");
+    src: url("https://db.onlinewebfonts.com/t/7c631010b431b2d84c8a7229a9e64705.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7c631010b431b2d84c8a7229a9e64705.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7c631010b431b2d84c8a7229a9e64705.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7c631010b431b2d84c8a7229a9e64705.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7c631010b431b2d84c8a7229a9e64705.svg#Univers LT Std 57 Condensed")format("svg");
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #FFFFFF;
+    color: #000;
+    font-family: 'Univers LT Std -67', sans-serif;
+    font-size: 0.875rem;
+  }
+  
+  .footer-left {
+    display: flex;
+    gap: 1rem;
+    font-family: 'Univers LT Std -67', sans-serif;
+  }
+  
+  .footer-left a {
+    text-decoration: none;
+    color: #000; 
+    font-family: 'Univers LT Std -67', sans-serif;
+  }
+  
+  .footer-right p {
+    margin: 0;
+    color: #000; 
+  }
+  

@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: "Univers LT Std 57 Condensed";
     src: url("https://db.onlinewebfonts.com/t/7c631010b431b2d84c8a7229a9e64705.eot");
@@ -9,50 +8,54 @@
     url("https://db.onlinewebfonts.com/t/7c631010b431b2d84c8a7229a9e64705.svg#Univers LT Std 57 Condensed")format("svg");
 }
 
-.navbar {
-    display: flex;
-    justify-content: center; 
-    padding: 0rem 1rem;
-    background-color: #fff; 
+
+.hero-section {
     font-family: 'Univers LT Std 57 Condensed', sans-serif;
+    display: flex;
+    height: 100vh; 
+    background: url('C:\Users\janvi\caterpillar\src\assets\HeroBackground.png') no-repeat center center;
   }
   
-  .navbar-container {
+  .hero-left {
     display: flex;
-    justify-content: space-between; 
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 100%; 
-    max-width: 1200px; 
+    width: 50%;
+    background-size: cover;
+    /* padding: 2rem; */
   }
   
-  .logo img {
-    cursor: pointer;
+  .left-image {
+    max-width: 100%;
+    height: auto;
   }
   
-  .nav-links {
-    display: flex;
-    gap: 2rem;
-  }
-  
-  .nav-link {
-    text-decoration: none;
-    color: #000; 
-    font-size: 1rem;
-  }
-  
-  .contact-button .contact {
+  .get-started-button {
+    margin-top: 1rem;
     padding: 0.7rem 1.5rem;
     background-color: #F7C710; 
     color: #000;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    border: 3px solid black;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
     transition: transform 0.3s ease;
-    text-decoration: none; 
-    display: inline-block; 
   }
   
-  .contact-button .contact:hover {
+  .get-started-button:hover {
     transform: translateY(-3px);
+  }
+  
+  .hero-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+  }
+  
+  .right-image {
+    height: 100%;
+    width: auto; 
   }
   
