@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Univers LT Std 57 Condensed";
+    src: url("https://db.onlinewebfonts.com/t/7c631010b431b2d84c8a7229a9e64705.eot");
+    src: url("https://db.onlinewebfonts.com/t/7c631010b431b2d84c8a7229a9e64705.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7c631010b431b2d84c8a7229a9e64705.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7c631010b431b2d84c8a7229a9e64705.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7c631010b431b2d84c8a7229a9e64705.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7c631010b431b2d84c8a7229a9e64705.svg#Univers LT Std 57 Condensed")format("svg");
+}
+
+.predict-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+
+.logo {
+    margin-bottom: 40px;
+  }
+  
+  .logo img {
+    max-width: 200px;
+    max-height: 50px;
+  }
+  
+  .form {
+    background-color: #fff;
+    padding: 30px;
+    width: 500px;
+  }
+  
+  .form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    background-color: #f0ad4e;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #e09a41;
+  }
+  
